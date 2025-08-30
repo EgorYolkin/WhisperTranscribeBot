@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  whisper-transcribe-bot:
+    build: .
+    container_name: whisper-transcribe-bot
+    restart: unless-stopped
+    tty: true
